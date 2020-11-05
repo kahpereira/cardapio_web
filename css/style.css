@@ -1,4 +1,9 @@
 /* ESTILOS GERAIS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Lora", serif;
 }
@@ -50,6 +55,7 @@ header {
 }
 
 .container_menu ul li {
+  padding-left: 30px;
   list-style: none;
   float: left;
   padding-bottom: 40px;
@@ -59,8 +65,7 @@ header {
   width: 15%;
   float: left;
   margin: 0 15px 0 5px;
-  border: 2px solid #000;
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 .container_menu .title_menu {
@@ -69,14 +74,13 @@ header {
   font-size: 16px;
   font-weight: bold;
   font-style: italic;
-  display: block;
+  display: inline-block;
 }
 
 .container_menu ul li p {
   font-size: 12px;
   line-height: 24px;
   margin: 0;
-  display: inline;
 }
 
 .container_menu ul li span {
@@ -84,6 +88,7 @@ header {
   font-weight: bold;
   font-style: italic;
   line-height: 24px;
+  display: block;
   float: right;
-  padding: 0 60px 20px 0;
+  padding: 22px 40px 0 0;
 }
